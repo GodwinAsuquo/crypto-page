@@ -10,8 +10,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        deepBlue: 'background: #0D0D2B',
-        lightBlue: 'background: #3671E9',
+        deepBlue: '#0D0D2B',
+        lightBlue: '#3671E9',
         deepPurple: '#2B076E',
         lightPurple: '#491F98',
       }

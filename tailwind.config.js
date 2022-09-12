@@ -8,6 +8,12 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    fontFamily: {
+      sans: ['Open Sans', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
+      raleway: ['Raleway', 'sans-serif'],
+      rubik: ['Rubik', 'sans-serif'],
+    },
     extend: {
       colors: {
         deepBlue: '#0D0D2B',

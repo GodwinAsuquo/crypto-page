@@ -2,7 +2,7 @@
 module.exports = {
  content: ['./*.html'],
   theme: {
-     screens: {
+      screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -22,6 +22,7 @@ module.exports = {
         lightPurple: '#491F98',
         lightGrey: '#E0E0E0',
         darkGrey: '#828282',
+        lighBg: 'rgba(255, 255, 255, 0.1)',
       }
     },
   },

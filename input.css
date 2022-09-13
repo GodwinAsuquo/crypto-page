@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #cta {
   background-image: url("/images/newsletter-box.png");
   background-repeat: no-repeat;
@@ -31,8 +32,17 @@ select {
   background-size: 500px;
   background-position: 50px -50px;
 }
+
 @media (max-width: 768px) {
   #portfolio {
     background-image: none;
   }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 }

@@ -20,6 +20,8 @@ module.exports = {
         lightBlue: '#3671E9',
         deepPurple: '#2B076E',
         lightPurple: '#491F98',
+        lightGrey: '#E0E0E0',
+        darkGrey: '#828282',
       }
     },
   },

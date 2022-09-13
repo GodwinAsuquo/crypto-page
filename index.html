@@ -1,20 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Open+Sans&family=Raleway:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Open+Sans&family=Raleway:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Cryptocurrency Page</title>
-</head>
-<body>
-    <h1 class="text-3xl">Hello world</h1>
-    
+  </head>
+  <body>
+    <section class="w-full h-screen">
+      <nav class="relative w-full h-[90px]">
+        <div
+          class="flex max-w-[85%] mx-auto justify-between items-center h-full"
+        >
+          <span><img src="./images/logo.svg" alt="" /></span>
+
+          <div class="flex gap-8">
+            <ul class="flex text-center space-x-12 text-white">
+              <li class="cursor-pointer">Products</li>
+              <li class="cursor-pointer">Features</li>
+              <li class="cursor-pointer">About</li>
+              <li class="cursor-pointer">Contact</li>
+            </ul>
+
+            <div class="relative space-x-4">
+              <div
+                class="absolute h-full w-[2px] text-white mx-auto left-2"
+              ></div>
+              <a href="#" class="text-white">Login</a>
+              <a href="#" class="text-white bg-lightBlue px-6 py-2 rounded-full"
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <div class="w-[85%] mx-auto flex mt-20 justify-between header">
+        <!-- Left side -->
+        <div class="flex-1 flex flex-col space-y-6">
+          <div
+            class="flex h-[40px] w-[365px] rounded-full items-center bg-lighBg"
+          >
+            <div
+              class="text-deepBlue bg-white h-full rounded-full w-[30%] flex items-center justify-center"
+            >
+              75% save
+            </div>
+            <span class="text-white pl-2">For the Black Friday weekend</span>
+          </div>
+          <span class="text-white text-5xl font-extrabold"
+            >Fastest & secure</span
+          >
+          <span class="text-white text-5xl font-extrabold"
+            >platform to invest</span
+          >
+          <span class="text-white text-5xl font-extrabold">in crypto</span>
+
+          <p class="text-lightGrey">
+            Buy and sell cryptocurrencies, trusted by 10M wallets with over $30
+            billion in transactions.
+          </p>
+
+          <button
+            class="bg-lightBlue w-[200px] h-[58px] rounded-full text-white"
+          >
+            Try for free
+          </button>
+        </div>
+
+        <!-- Right side -->
+
+        <div class="flex-1 scale-90 -translate-y-14">
+          <img src="./images/hero-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="h-[40vh] flex items-center">
+      <!-- Boxes container -->
+      <div class="w-[85%] flex mx-auto justify-between">
+        <!-- Box -->
+        <div class="flex">
+          <div class="p-4 bg-lighBg rounded-full">
+            <img src="./images/Bar Chart.png" alt="" />
+          </div>
+          <div class="flex flex-col pl-2 text-white space-y-4">
+            <span class="text-3xl font-extrabold">$30B</span>
+            <span>Digital Currency exchanged</span>
+          </div>
+        </div>
+
+        <!-- Box -->
+        <div class="flex">
+          <div class="p-4 bg-lighBg rounded-full">
+            <img src="./images/Person.png" alt="" />
+          </div>
+          <div class="flex flex-col pl-2 text-white space-y-4">
+            <span class="text-3xl font-extrabold">10M+</span>
+            <span>Trusted Wallet Investors</span>
+          </div>
+        </div>
+
+        <!-- Box -->
+        <div class="flex">
+          <div class="p-4 bg-lighBg rounded-full">
+            <img src="./images/Earth.png" alt="" />
+          </div>
+          <div class="flex flex-col pl-2 text-white space-y-4">
+            <span class="text-3xl font-extrabold">195</span>
+            <span>Countries Supported</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-[90vh]">
+        <!-- Container -->
+        <div class="w-[85%] mx-auto flex items-center space-x-6 mt-6">
+          <!-- left side -->
+          <div class="flex-1">
+            <img src="./images/why-img.png" alt="">
+          </div>
+
+          <!-- Right side -->
+          <div class="flex-1 flex flex-col space-y-6">
+            <span class="text-white text-4xl font-bold">Why you should choose</span>
+            <span class="text-white text-4xl font-bold">Crappo</span>
+            <p class="text-lightGrey">Experience the next generation Cryptocurrency platform. No financial borders,extra fees and fake reviews.</p>
+
+            <!-- button -->
+            <button class="bg-lightBlue w-[160px] h-[50px] rounded-full text-white">Learn more</button>
+          </div>
+
+        </div>
+    </section>
+
     <script src="JS/script.js"></script>
-</body>
+  </body>
 </html>

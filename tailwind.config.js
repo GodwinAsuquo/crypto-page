@@ -25,7 +25,7 @@ module.exports = {
         lighBg: 'rgba(255, 255, 255, 0.1)',
       },
       animation: {
-    fadeIn: "fadeIn 2s ease-in forwards"
+    fadeIn: "fadeIn 1s ease-in forwards"
   },
   keyframes: {
     fadeIn: {

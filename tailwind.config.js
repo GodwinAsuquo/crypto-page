@@ -23,8 +23,20 @@ module.exports = {
         lightGrey: '#E0E0E0',
         darkGrey: '#828282',
         lighBg: 'rgba(255, 255, 255, 0.1)',
-      }
+      },
+      animation: {
+    fadeIn: "fadeIn 2s ease-in forwards"
+  },
+  keyframes: {
+    fadeIn: {
+      "0%": { opacity: 0 },
+      "100%": { opacity: 1 }
+    }
+  }
     },
   },
   plugins: [],
+  variants: {
+    animation: ["motion-safe"]
+},
 }
